@@ -1,0 +1,30 @@
+:root {
+    --forest-green: #228B22;
+    --deep-brown: #5C4033;
+    --gold-accent: #DAA520;
+    --cream-white: #F5F5DC;
+}
+
+body {
+    background-color: var(--cream-white);
+    color: #000;
+}
+
+header {
+    background-color: var(--deep-brown);
+}
+
+footer {
+    background-color: var(--deep-brown);
+    color: var(--cream-white);
+}
+
+button {
+    background-color: var(--gold-accent);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
