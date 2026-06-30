@@ -36,6 +36,17 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+
+.main-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+
+
+
+
 h1,
 h2,
 h3,
@@ -98,3 +109,16 @@ nav a {
         align-items: flex-start;
     }
 }
+
+
+@media (max-width: 768px) {
+    .main-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+
+
