@@ -58,3 +58,33 @@ p {
     font-size: 1em;
     line-height: 1.6;
 }
+
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.instructor-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: var(--cream-white);
+    text-decoration: none;
+    font-weight: bold;
+}
