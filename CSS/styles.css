@@ -10,6 +10,10 @@ body {
     color: #000;
 }
 
+img { max-width: 100%; height: auto; }
+
+
+
 header {
     background-color: var(--deep-brown);
 }
