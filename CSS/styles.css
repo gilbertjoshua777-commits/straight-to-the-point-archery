@@ -37,14 +37,13 @@ button {
 
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 
-
 .main-content {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+    width: 90%;
+    margin: 0 auto;
+    border: 2px solid red;
 }
 
 
@@ -79,6 +78,7 @@ p {
 .container {
     width: 90%;
     margin: 0 auto;
+}
 
 .card {
     background-color: #fff;
