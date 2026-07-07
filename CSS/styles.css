@@ -33,7 +33,9 @@ button {
     font-weight: bold;
 }
 
-
+button:hover {
+    background-color: var(--forest-green);
+}
 
 
 body {
@@ -95,7 +97,17 @@ p {
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
+    transition: transform 0.3s ease;
 }
+
+.instructor-photo:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+
 
 nav ul {
     display: flex;
@@ -104,7 +116,7 @@ nav ul {
     list-style: none;
 }
 
-nav a {
+nav a:hover {
     color: var(--cream-white);
     text-decoration: none;
     font-weight: bold;
@@ -128,6 +140,17 @@ nav a {
 
 
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
+.hero {
+    animation: fadeIn 2s ease-in;
+}
 
 
