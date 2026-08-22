@@ -1,0 +1,1 @@
+console.log("STTP JavaScript is connected.");
