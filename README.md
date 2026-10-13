@@ -3,6 +3,8 @@
 ## Project Overview
 A responsive website created for Straight to the Point Archery, an archery instruction business. This project was developed as part of the University of Washington Front-End Web Development course.
 
+A JavaScript powered signup menu was retroactively added to the classes page.
+
 ## Features
 - Responsive website design
 - Home, Classes, Instructors, and Contact pages
